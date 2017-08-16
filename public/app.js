@@ -51,19 +51,19 @@
 	app.controller('mainCtrl', ['$scope', 'mainService', function($scope,mainService) {
 		$scope.config = {};
 		$scope.services = [{
-			icono: 'fa-stethoscope',
+			icono: 'fa fa-4x fa-stethoscope text-primary sr-icons ',
 			titulo: 'Mantenimiento preventivo y correctivo',
 			descripcion: 'Servicios de diagnostico y reparación con nuestro Mantenimiento Correctivo Automotriz para verificar las operaciones mayores de su vehículo, las cuales requieren de un tiempo mayor en el taller Automotriz \"Guzmán\"'
 		},{
-			icono: 'fa-plus-square',
+			icono: 'fa fa-4x fa-plus-square text-primary sr-icons ',
 			titulo: 'Reparación de motores gasolina y diesel',
 			descripcion: 'Reparar un motor, ya sea gasolina o diésel, no es tarea sencilla. Por ello, es algo que tendrá que realizarse siempre por un profesional especializado en la materia que cuente con conocimientos más que suficientes para llevar a cabo la reparación del motor.'
 		},{
-			icono: 'fa-cogs',
+			icono: 'fa fa-4x fa-cogs text-primary sr-icons ',
 			titulo: 'Escaneado',
 			descripcion: 'Los scanner tienen la función de detectar todas las unidades de control electrónico que se han instalado en el auto y puede leer los códigos de error en caso de que existan algunas fallas en el auto.'
 		},{
-			icono: 'fa-wrench',
+			icono: 'fa fa-4x fa-wrench text-primary sr-icons ',
 			titulo: 'Limpeza de inyectores por ultrasonido',
 			descripcion: 'Un limpiador ultrasónico es un dispositivo de limpieza que utiliza los ultrasonidos y una adecuada solución de limpieza para limpiar objetos delicados. Los ultrasonidos no son efectivos sin la solución de limpieza; éstos precisan una solución apropiada para cada objeto y la suciedad a limpiar.'
 		}];
