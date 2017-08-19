@@ -86,3 +86,34 @@
 .btn span{
     vertical-align: super;
 }
+a:link   
+{   
+    text-decoration:none;   
+}
+.titulo {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f05f40;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    text-decoration: none;
+}
+.titulo:hover {
+    color: #f05f40;
+}
+
+
+@media only screen and (min-width : 992px) {
+    .titulo {
+      display: inline-block;
+      padding-top: 0.3125rem;
+      padding-bottom: 0.3125rem;
+      margin-right: 1rem;
+      font-size: 1.25rem;
+      line-height: inherit;
+      white-space: nowrap;
+    }
+
+    .titulo:focus, .titulo:hover {
+      text-decoration: none;
+    }
+}

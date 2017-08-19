@@ -4,7 +4,7 @@
   <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -36,7 +36,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <a class="navbar-brand" href="#page-top">{{config.aplicativo}} </a>
+      <a class="titulo" href="#page-top">{{config.aplicativo}} </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -163,7 +163,7 @@
       <div class="container">
         <div id="map"></div>
         <div class="row">
-            <div class="col-md-3 col-xs-6" ng-repeat="marker in markers | orderBy : 'title'">
+            <div class="col-md-3 col-xs-6" ng-repeat="marker in markers">
                  <button type="submit" id="btn-send" class="btn btn-center btn-transparent-gmail btn-block-maps" ng-click="openInfoWindow($event, marker)">      
                     <span>
                     {{marker.title}}
